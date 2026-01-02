@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.m3",
+    "module": "wr15-sdk",
+    "version": "1.3.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "com.journeyapps",
+          "module": "zxing-android-embedded",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wr15-sdk-1.3.6.aar",
+          "url": "wr15-sdk-1.3.6.aar",
+          "size": 799253,
+          "sha512": "883065873561177d7f20155a233dd24a686a0e80da669954de75591594b1178d569fadf0c4435780d6386e2abef99e8f493ca4c2d697dc9673ef59959efe9896",
+          "sha256": "2612fd890d52f1de2589b525eea34994ee8320cec379ab8a61607908a708c94d",
+          "sha1": "02feb228ac8d0c6e6d70aefba2d85e944837de41",
+          "md5": "da11ac9c1254bae1b8dfde88a9c33957"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "com.journeyapps",
+          "module": "zxing-android-embedded",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wr15-sdk-1.3.6.aar",
+          "url": "wr15-sdk-1.3.6.aar",
+          "size": 799253,
+          "sha512": "883065873561177d7f20155a233dd24a686a0e80da669954de75591594b1178d569fadf0c4435780d6386e2abef99e8f493ca4c2d697dc9673ef59959efe9896",
+          "sha256": "2612fd890d52f1de2589b525eea34994ee8320cec379ab8a61607908a708c94d",
+          "sha1": "02feb228ac8d0c6e6d70aefba2d85e944837de41",
+          "md5": "da11ac9c1254bae1b8dfde88a9c33957"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wr15-sdk-1.3.6-sources.jar",
+          "url": "wr15-sdk-1.3.6-sources.jar",
+          "size": 227085,
+          "sha512": "2f9dde001639155484a4114053d64349f60fdd139edc1e0fc2ab8bd1594ededffcbff2fe58bc4d17fe3be92c9b6682777c0de4a56609d2819b8511347e937064",
+          "sha256": "f2a87bb0b5dd65cd67505676abf4d18cfbd245713f97566b21c71a3ce75c8c4c",
+          "sha1": "18f99d20d4014ab9ea150930a51169e9a622174e",
+          "md5": "f8ab79133c5aaa795638d96c8a24a6bb"
+        }
+      ]
+    }
+  ]
+}
