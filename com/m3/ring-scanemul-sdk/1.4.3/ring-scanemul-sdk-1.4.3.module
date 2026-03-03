@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.m3",
+    "module": "ring-scanemul-sdk",
+    "version": "1.4.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "com.journeyapps",
+          "module": "zxing-android-embedded",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ring-scanemul-sdk-1.4.3.aar",
+          "url": "ring-scanemul-sdk-1.4.3.aar",
+          "size": 598129,
+          "sha512": "589dc8a72848a514df6b503cdc66ab163399488022f0e82808af89a3a7f838ee6cece31b21b978bd55b52a7bb788ceed4af65ebc6c091391baccfe82283e9316",
+          "sha256": "864ea46ff33d43f45fa9da90be03154c2b22f8b04578473d0b595541c5bc56ca",
+          "sha1": "0bfc8a89ee60fc06d4ae2cda6165d28f28e08ed0",
+          "md5": "da9a9ee340ae1174a87fbacc73ce14cc"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "com.journeyapps",
+          "module": "zxing-android-embedded",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ring-scanemul-sdk-1.4.3.aar",
+          "url": "ring-scanemul-sdk-1.4.3.aar",
+          "size": 598129,
+          "sha512": "589dc8a72848a514df6b503cdc66ab163399488022f0e82808af89a3a7f838ee6cece31b21b978bd55b52a7bb788ceed4af65ebc6c091391baccfe82283e9316",
+          "sha256": "864ea46ff33d43f45fa9da90be03154c2b22f8b04578473d0b595541c5bc56ca",
+          "sha1": "0bfc8a89ee60fc06d4ae2cda6165d28f28e08ed0",
+          "md5": "da9a9ee340ae1174a87fbacc73ce14cc"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ring-scanemul-sdk-1.4.3-sources.jar",
+          "url": "ring-scanemul-sdk-1.4.3-sources.jar",
+          "size": 178677,
+          "sha512": "d534e28128c570e1166cfa606722410c11fcb0d6617252a90ecfd1921470d0a97a5fa08fe2ec78f6477e28e966ad355bdcaec5f5cda2003debe3cabd0928852b",
+          "sha256": "6369482317fb9e99d54ef3de90c0418c1ac273cce8b0d7e15fc7e5c784ae7daa",
+          "sha1": "bf1653ac4e8ff99e98b455ad619a1143ddf4f275",
+          "md5": "aae96d89c0076a9126d37ee7759b77b9"
+        }
+      ]
+    }
+  ]
+}
