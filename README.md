@@ -1,31 +1,15 @@
-> For more details, please click the [here](https://github.com/m3mobile/wr15-sdk-maven/releases) to visit Ring ScamEmul SDK Repo and refer to the SDK manual.
+## 1. Overview
 
-# M3 Ring ScanEmul Android SDK Sample
+- Ring Scanner Android SDK is a tool for communication and control with Ring Scanner devices. This SDK is designed so Android application developers can easily integrate Ring Scanner device features.
+- This manual provides detailed instructions for installing, configuring, and using the Ring Scanner Android SDK.
 
-This repository contains an **Android sample application** and **documentation** for integrating the **Ring ScanEmul Scanner SDK** into your own Android apps.
+## 2. System Requirements
 
-The sample app demonstrates how to:
+- Android API Level 21 or higher
+- Java Development Kit (JDK) 8 or higher
+- Java/Kotlin compilation target: JVM 11 or higher
 
-- Initialize the Ring_ScanEmul SDK
-- Connect to a Ring_ScanEmul ring scanner
-- Receive scanned barcode data
-- Change basic scanner / firmware settings
-
----
-
-## How to Open This Project
-#### 1. Clone this repository
-```bash
-git clone https://github.com/m3mobile/Ring_ScanEmul-SDK-Sample-App.git
-```
-
-#### 2. Open **Android Studio**
-  - Select **'Open - Ring_ScanEmul-SDK-Sample-App'**
-
-#### 3. Let Gradle sync finish.
----
-
-## Adding the Ring_ScanEmul SDK to Your Own Project
+## 3. Adding the Ring_ScanEmul SDK to Your Own Project
 To use the Ring ScanEmul SDK in your own app, add the Maven repository and dependency to your Gradle files.
 
 #### 1. Add the Maven repository in your **settings.gradle.kts**
@@ -54,7 +38,7 @@ dependencyResolutionManagement {
 }
 ```
 
-#### Add the SDK dependency
+#### 2. Add the SDK dependency
 In your module-level build.gradle or build.gradle.kts
 ```kotlin
 dependencies {
